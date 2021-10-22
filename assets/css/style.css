@@ -1059,6 +1059,10 @@ a:hover {
   margin-bottom: 60px;
 }
 
+.how_it_works.for_desktop .content {
+  width: 100%;
+}
+
 .shop_section {
   padding: 11.09375vw 0 10.416666666666666vw;
 }
@@ -2337,6 +2341,14 @@ section.discover_section.aos-init.aos-animate .common_img {
   .steps .step-2_line {
     margin-top: 37px;
   }
+  .how_it_works.for_desktop .wrapper {
+    padding: 0 3%;
+  }
+  .how_it_works.for_desktop .wrapper .content .info {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (max-width: 1280px) {
@@ -2480,6 +2492,9 @@ section.discover_section.aos-init.aos-animate .common_img {
   }
   .how_it_works.for_desktop .wrapper .content {
     width: 100%;
+  }
+  .how_it_works.for_desktop {
+    min-height: 71vh;
   }
 }
 
