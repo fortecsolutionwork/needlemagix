@@ -1,0 +1,43 @@
+@mixin heading($font-size, $line-height) {
+  font-size: $font-size;
+  line-height: $line-height;
+  font-family: "GTSectraFine Regular";
+  text-transform: uppercase;
+}
+
+@mixin shopbtn {
+  border: 2px solid #000000;
+  padding: 16px 121px;
+  font-size: 16px;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+@mixin title($margin-bottom) {
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 0.6px;
+  text-transform: capitalize;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: $margin-bottom;
+  color: $primary-color;
+}
+
+@mixin bodoni {
+  font-family: "GTSectraFine Regular";
+}
+@mixin p($margin-bottom: 0) {
+  line-height: 22px;
+  letter-spacing: 0.24px;
+  color: $primary-color;
+  margin-bottom: $margin-bottom;
+}
+
+@mixin opensans {
+  font-family: "Open Sans", sans-serif;
+}
