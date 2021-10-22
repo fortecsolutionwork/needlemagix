@@ -707,6 +707,35 @@ a:hover {
   }
 }
 
+.how_it_works.for_desktop {
+  min-height: 95vh;
+
+  &::after {
+    height: 76%;
+  }
+  &::before {
+  }
+
+  .wrapper {
+    max-width: initial;
+    padding: 0 5%;
+
+    .item {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+      padding: 0 10px;
+      img {
+        max-width: 100%;
+        min-height: 42vh;
+        object-fit: cover;
+      }
+    }
+  }
+  .heading span.offset {
+    margin-bottom: 60px;
+  }
+}
+
 // shop section
 .shop_section {
   padding: 11.09375vw 0 10.416666666666666vw;
@@ -1567,4 +1596,10 @@ section.discover_section.aos-init.aos-animate .common_img {
 
 .slick-disabled:before {
   display: none;
+}
+.how_it_works.for_mobile {
+  display: none;
+}
+.how_it_works.for_desktop {
+  display: block;
 }
